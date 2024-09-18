@@ -44,7 +44,10 @@ body {
   justify-content: space-evenly;
   gap: 1.5rem;
 }
-
+#user-input div{
+  padding-bottom: 5px;
+  line-height: 2rem;
+}
 #user-input label {
   display: block;
   margin-bottom: 0.25rem;
@@ -64,13 +67,24 @@ body {
   font-size: 1rem;
 }
 
-#result {
+#result {  
+  text-align: center;
   max-width: 50rem;
   margin: 2rem auto;
   padding: 1rem;
+  padding-left: 10.5rem;
   table-layout: fixed;
   border-spacing: 1rem;
-  text-align: right;
+
+}
+
+td{
+  padding: 0 10px;
+  padding-top: 15px;
+  text-align: center;
+}
+th{
+  padding: 0 10px;
 }
 
 #result thead {
@@ -85,5 +99,5 @@ body {
 }
 
 .center {
-  text-align: center;
+  text-align: right;
 }
