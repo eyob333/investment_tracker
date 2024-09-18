@@ -68,11 +68,11 @@ body {
 }
 
 #result {  
+  display: flex;
   text-align: center;
-  max-width: 50rem;
+  justify-content: center;
   margin: 2rem auto;
   padding: 1rem;
-  padding-left: 10.5rem;
   table-layout: fixed;
   border-spacing: 1rem;
 

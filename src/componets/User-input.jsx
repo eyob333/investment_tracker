@@ -1,5 +1,5 @@
 import Input from "./Input"
-import Data from "../data"
+import Data from '../utill/data'
 
 function UserInput({label, onEdit}){
 
